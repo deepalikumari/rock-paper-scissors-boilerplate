@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+p {
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+   
+}
+
+
+#score {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+#area {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#user-area {
+    height: 450px;
+    width: 450px;
+    border: 2px solid #F9C446;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+#pc-area {
+    height: 450px;
+    width: 450px;
+    border: 2px solid #F9C446;
+}
+#vs img {
+    height: 500px;
+    width: 100px;
+}
+.name {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+#options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#options img {
+    height: 90px;
+}
+
+.images img {
+    height: 280px;
+}
+
+#you-win {
+    font-size: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: none;
+}
+#you-lose {
+    font-size: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: none;
+}
+
+#play-again{
+    height: 50px;
+    width: 250px;
+    background-color: greenyellow;
+    border-radius: 8px;
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+
+
+#footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

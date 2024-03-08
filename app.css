@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+#heading {
+    color: #ae98da;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 60px;
+}
+#gimage img {
+    height: 450px;    
+}
+
+#gimage div img {
+    height: 50px;
+}
+
+#button-name {
+    color: gold;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+#button {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gimage {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 900px;
+}
+#details {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
